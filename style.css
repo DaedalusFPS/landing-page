@@ -49,7 +49,6 @@ ul {
 
 .main-left, .main-right{
   max-width: 450px;
-  /* max-height: 250px; */
 }
 
 .main-text{
@@ -112,19 +111,18 @@ button, .cta-container{
 }
 
 .testimonial-section{
+  background-color: #E5E7EB;
   display: flex;
+  justify-content: space-around;
+  padding: 96px 0px;
 }
 
 .testimonial-container{
   background-color: #E5E7EB;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  padding: 96px 575px; */
+  max-width: 775px;
 }
 
- .quote{ /* need to fix issue on page shrink */
+ .quote{
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
@@ -180,12 +178,3 @@ button, .cta-container{
   align-items: center;
   color: #E5E7EB;
 }
-
-
-/*
-NOTES
-Revisit margin/padding details to confirm if I should use margin instead of padding in some areas
-Rework testimonial section
-Should p elements simply be divs? Review div vs p
-Rework header for better alignment
-*/
